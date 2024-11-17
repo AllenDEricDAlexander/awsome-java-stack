@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    username: root
+    password: MQa12345
+    url:  jdbc:mysql://localhost:3306/demo?serverTimezone=GMT
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis:
+  mapper-locations: mapper/*.xml
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

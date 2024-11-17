@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: ssmp
+  profiles:
+    active: mp
+
+server:
+  port: 8088
+
